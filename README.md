@@ -10,3 +10,22 @@ Due to the GitHub upload size limit, we have only uploaded the demo dataset. The
 - scikit-learn 1.6.1
 - torch-geometric 2.6.1
 - CUDA 12.4
+# Reproduction
+1. Clone this repository and enter the project directory:
+```bash
+git clone https://github.com/JaunYue/EvoStruct-Kla.git
+cd EvoStruct-Kla
+```
+2. Create and activate the experimental environment:
+```bash
+conda create -n evostruct-kla python=3.9.22 -y
+conda activate evostruct-kla
+```
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+4. Run EvoStruct-Kla from the repository root directory:
+```bash
+python Code/main.py
+```
