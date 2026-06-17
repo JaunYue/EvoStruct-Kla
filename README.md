@@ -3,3 +3,10 @@ Lysine lactylation (Kla) is a recently identified post-translational modificatio
 ![model](https://github.com/JaunYue/EvoStruct-Kla/blob/main/workflow.png)
 # Full dataset for this study
 Due to the GitHub upload size limit, we have only uploaded the demo dataset. The full dataset can be obtained via the link https://zenodo.org/records/20049452?preview=1. 
+# Environment
+- python 3.9.22
+- torch 2.6.0
+- numpy 1.23.5
+- scikit-learn 1.6.1
+- torch-geometric 2.6.1
+- CUDA 12.4
